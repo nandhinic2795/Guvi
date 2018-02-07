@@ -12,11 +12,11 @@ while(a!=0)
 }
 if(n==sum)
 {
-	printf("Palindrome");
+	printf("Yes");
 }
 else
 {
-	printf("Not palindrome");
+	printf("No");
 }
 
 // your code goes here
