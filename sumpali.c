@@ -2,7 +2,7 @@
 
 int main(void) {
 	// your code goes here
-	int n,sum=0,r,a,v=0,n1;
+	int n,sum=0,r,a,v=0,n1,s;
 	scanf("%d",&n);
  n1=n;
 	while(n1!=0)
@@ -11,6 +11,7 @@ int main(void) {
 		sum=sum+r;
 		n1=n1/10;
 	}
+	s=sum;
 	while(sum!=0)
 	{
 				a=sum%10;
@@ -18,9 +19,9 @@ int main(void) {
 		sum=sum/10;
 
 	}
-	if(v==n)
+	if(v==s)
 	{
-		printf("yes");
+		printf("Yes");
 	}
 	else{
 	printf("No");
