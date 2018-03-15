@@ -1,9 +1,8 @@
 #include <stdio.h>
-#define MAX 50
 
 int main()
 {
-	char s[MAX]={0};	
+	char s[50]={0};	
 	int i;
 	scanf("%[^\n]s",s); 
 	for(i=0; s[i]!='\0'; i++)
